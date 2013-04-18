@@ -38,5 +38,5 @@ if __name__ == '__main__':
             continue
         print("Результат функции ----->>> ", Zpow(a, p, m))
         req = input("Вы ходите выйти? Y/N: ")
-        if req != 'N':
+        if (req != 'N') and (req != 'n'):
             __exit = True
